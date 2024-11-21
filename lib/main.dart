@@ -22,9 +22,10 @@ class MyApp extends StatelessWidget {
           create: (context) => PostProvider(),
         )
       ],
-      builder: (context, child) =>MaterialApp(
-          home: HomePage()
-      ),
+      builder: (context, child) =>
+          MaterialApp(
+              home: HomePage()
+          ),
     );
   }
 }
